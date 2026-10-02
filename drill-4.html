@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head><title>Drill 4</title></head>
+<body>
+<input type="number" id="plates" value="5">
+<button type="button" id="count-btn">Count</button>
+<script>
+const countButton = document.getElementById("count-btn");
+countButton.addEventListener("click", function()
+{
+    const plates = document.getElementById("plates").value;
+    console.log("plates: " + plates);
+});
+</script>
+</body>
+</html>

@@ -23,35 +23,35 @@
         <h2>Today's Healthy Ten</h2>
 
         <article class="dish">
-            <img src="images/jonna-rotte-wrap.png" alt="Jonna rotte wrap filled with vegetables" width="180">
+            <img src="images/jonna-rotte-wrap.png" alt="Jonna rotte wrap" width="180">
             <h3>Jonna Rotte Wrap</h3>
             <p>Telangana sorghum-flatbread wrap, loaded with crunchy vegetables.</p>
             <p>Price: Rs. 60</p>
         </article>
 
         <article class="dish">
-            <img src="images/sajja-roti-wrap.png" alt="Sajja roti wrap with fresh filling" width="180">
+            <img src="images/sajja-roti-wrap.png" alt="Sajja roti wrap" width="180">
             <h3>Sajja Roti Wrap</h3>
             <p>Pearl-millet flatbread wrap — dense, warm, and filling.</p>
             <p>Price: Rs. 60</p>
         </article>
 
         <article class="dish">
-            <img src="images/ragi-sangati-bowl.png" alt="Ragi sangati bowl served hot" width="180">
+            <img src="images/ragi-sangati-bowl.png" alt="Ragi sangati bowl" width="180">
             <h3>Ragi Sangati Bowl</h3>
             <p>Classic Telangana finger-millet mudde bowl, served hot.</p>
             <p>Price: Rs. 55</p>
         </article>
 
         <article class="dish">
-            <img src="images/ragi-idli-bowl.jpg" alt="Bowl of soft ragi idlis" width="180">
+            <img src="images/ragi-idli-bowl.jpg" alt="Ragi idli bowl" width="180">
             <h3>Ragi Idli Bowl</h3>
             <p>Soft steamed finger-millet idlis with chutney.</p>
             <p>Price: Rs. 50</p>
         </article>
 
         <article class="dish">
-            <img src="images/pesarattu-with-sprouts.jpg" alt="Pesarattu dosa topped with sprouts" width="180">
+            <img src="images/pesarattu-with-sprouts.jpg" alt="Pesarattu with sprouts" width="180">
             <h3>Pesarattu with Sprouts</h3>
             <p>Andhra green-gram dosa, topped with fresh sprouts.</p>
             <p>Price: Rs. 55</p>
@@ -72,7 +72,7 @@
         </article>
 
         <article class="dish">
-            <img src="images/sprouts-moong-chilla.jpg" alt="Sprouts moong chilla on a plate" width="180">
+            <img src="images/sprouts-moong-chilla.jpg" alt="Sprouts moong chilla" width="180">
             <h3>Sprouts Moong Chilla</h3>
             <p>Savoury moong pancake studded with sprouts.</p>
             <p>Price: Rs. 50</p>
@@ -86,7 +86,7 @@
         </article>
 
         <article class="dish">
-            <img src="images/millet-protein-shake.jpg" alt="Glass of millet protein shake" width="180">
+            <img src="images/millet-protein-shake.jpg" alt="Millet protein shake" width="180">
             <h3>Millet Protein Shake</h3>
             <p>Cold millet-and-jaggery protein shake.</p>
             <p>Price: Rs. 40</p>
@@ -107,16 +107,16 @@
 
             <fieldset>
                 <legend>Pick your dish</legend>
-                <label><input type="radio" name="dish" value="jonna-rotte-wrap"> Jonna Rotte Wrap</label><br>
-                <label><input type="radio" name="dish" value="sajja-roti-wrap"> Sajja Roti Wrap</label><br>
-                <label><input type="radio" name="dish" value="ragi-sangati-bowl"> Ragi Sangati Bowl</label><br>
-                <label><input type="radio" name="dish" value="ragi-idli-bowl"> Ragi Idli Bowl</label><br>
-                <label><input type="radio" name="dish" value="pesarattu-with-sprouts"> Pesarattu with Sprouts</label><br>
-                <label><input type="radio" name="dish" value="ulava-charu-protein-bowl"> Ulava Charu Protein Bowl</label><br>
-                <label><input type="radio" name="dish" value="gongura-sprouts-salad"> Gongura Sprouts Salad</label><br>
-                <label><input type="radio" name="dish" value="sprouts-moong-chilla"> Sprouts Moong Chilla</label><br>
-                <label><input type="radio" name="dish" value="paneer-protein-bowl"> Paneer Protein Bowl</label><br>
-                <label><input type="radio" name="dish" value="millet-protein-shake"> Millet Protein Shake</label>
+                <label><input type="radio" id="dish-0" name="dish" value="jonna-rotte-wrap"> Jonna Rotte Wrap</label><br>
+                <label><input type="radio" id="dish-1" name="dish" value="sajja-roti-wrap"> Sajja Roti Wrap</label><br>
+                <label><input type="radio" id="dish-2" name="dish" value="ragi-sangati-bowl"> Ragi Sangati Bowl</label><br>
+                <label><input type="radio" id="dish-3" name="dish" value="ragi-idli-bowl"> Ragi Idli Bowl</label><br>
+                <label><input type="radio" id="dish-4" name="dish" value="pesarattu-with-sprouts"> Pesarattu with Sprouts</label><br>
+                <label><input type="radio" id="dish-5" name="dish" value="ulava-charu-protein-bowl"> Ulava Charu Protein Bowl</label><br>
+                <label><input type="radio" id="dish-6" name="dish" value="gongura-sprouts-salad"> Gongura Sprouts Salad</label><br>
+                <label><input type="radio" id="dish-7" name="dish" value="sprouts-moong-chilla"> Sprouts Moong Chilla</label><br>
+                <label><input type="radio" id="dish-8" name="dish" value="paneer-protein-bowl"> Paneer Protein Bowl</label><br>
+                <label><input type="radio" id="dish-9" name="dish" value="millet-protein-shake"> Millet Protein Shake</label>
             </fieldset>
 
             <p>
@@ -131,6 +131,7 @@
 
             <p>
                 <button type="submit">Place order</button>
+                <button type="button" id="check-order">Check my order</button>
             </p>
         </form>
     </main>
@@ -138,5 +139,7 @@
     <footer>
         <p>&copy; 2026 Poshtik Campus &middot; orders@poshtikcampus.in</p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>

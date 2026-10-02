@@ -1,36 +1,22 @@
-# FSWD Lab 3
+# FSWD Lab 4
 
-This folder contains the programs from FSWD Lab 3: CSS selectors, box model,
-media queries, the completed Poshtik Campus website, and the four CSS PYQ
-programs.
+Files from the Lab 4 JavaScript exercise.
 
-## Main project
+- drill-1.html
+- drill-2.html
+- drill-3.html
+- drill-4.html
+- menu.html
+- script.js
 
-- `index.html`
-- `menu.html`
-- `about.html`
-- `style.css`
+The code files contain no explanatory comments.
 
-The main project expects an `images/` folder containing the Lab 3 image assets.
+The main project expects the Lab 3 `style.css` and `images/` folder.
 
-## Warm-up programs
-
-- `css-warmup-1.html` — class selector
-- `css-warmup-2.html` — id selector
-- `css-warmup-3.html` — box model / padding
-- `css-warmup-4.html` — responsive `@media`
-
-## PYQ programs
-
-- `claim.html` — internal CSS insurance claim form
-- `profile.html` — Verdana profile page
-- `print-media.html` — `@media print`
-- `cascade-external-logo.html` + `cascade-external-logo.css` — cascading, external CSS and header background image
-
-## Git
+Git:
 
 ```bash
-git add .
-git commit -m "Complete FSWD Lab 3"
+git add menu.html script.js
+git commit -m "Model the menu as data and read the order form"
 git push
 ```
