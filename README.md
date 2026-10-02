@@ -1,20 +1,36 @@
-# FSWD Lab 2
+# FSWD Lab 3
 
-Based on the Full Stack Web Development Lab 2 — Static website using HTML forms.
+This folder contains the programs from FSWD Lab 3: CSS selectors, box model,
+media queries, the completed Poshtik Campus website, and the four CSS PYQ
+programs.
 
-## Included programs
+## Main project
 
-1. `form-warmup-1.html` — labelled text input
-2. `form-warmup-2.html` — radio group of three options
-3. `form-warmup-3.html` — select dropdown with three options
-4. `form-warmup-4.html` — text input and submit button
-5. `menu.html` — Poshtik Campus menu with the complete order form
-6. `survey.html` — household survey exam/PYQ program
+- `index.html`
+- `menu.html`
+- `about.html`
+- `style.css`
 
-## Git checkpoint from the lab
+The main project expects an `images/` folder containing the Lab 3 image assets.
+
+## Warm-up programs
+
+- `css-warmup-1.html` — class selector
+- `css-warmup-2.html` — id selector
+- `css-warmup-3.html` — box model / padding
+- `css-warmup-4.html` — responsive `@media`
+
+## PYQ programs
+
+- `claim.html` — internal CSS insurance claim form
+- `profile.html` — Verdana profile page
+- `print-media.html` — `@media print`
+- `cascade-external-logo.html` + `cascade-external-logo.css` — cascading, external CSS and header background image
+
+## Git
 
 ```bash
 git add .
-git commit -m "Add order form to menu"
+git commit -m "Complete FSWD Lab 3"
 git push
 ```

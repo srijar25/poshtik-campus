@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Insurance Claim</title>
+    <style>
+        form {
+            background-color: lavender;
+            border: 2px solid slateblue;
+            padding: 16px;
+            width: 420px;
+        }
+        button {
+            background-color: slateblue;
+            color: white;
+            border: none;
+            padding: 8px 16px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <p><label for="policy">Policy number</label>
+        <input type="text" id="policy" name="policy"></p>
+
+        <p><label for="claimant">Claimant name</label>
+        <input type="text" id="claimant" name="claimant"></p>
+
+        <p><label for="incident">Date of incident</label>
+        <input type="date" id="incident" name="incident"></p>
+
+        <p><label for="details">Claim description</label>
+        <textarea id="details" name="details" rows="3"></textarea></p>
+
+        <button type="submit">Submit claim</button>
+    </form>
+</body>
+</html>

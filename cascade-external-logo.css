@@ -1,0 +1,13 @@
+body {
+    color: black;
+}
+
+h1, h3 {
+    color: seagreen;
+}
+
+#page-header {
+    background-image: url("images/poshtik-campus-logo.jpg");
+    background-repeat: no-repeat;
+    background-position: left center;
+}
