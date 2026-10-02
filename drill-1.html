@@ -1,15 +1,23 @@
 <!DOCTYPE html>
-<html>
-<head><title>Drill 1</title></head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Drill 1</title>
+</head>
 <body>
-<script>
-const price = 55;
-let quantity = 1;
-console.log("price: " + price + ", quantity: " + quantity);
-quantity = 3;
-console.log("quantity is now " + quantity);
-price = 60;
-console.log("this line never prints");
-</script>
+    <ul id="dish-names"></ul>
+    <script>
+        const dishNames = ["Ragi Idli Bowl", "Pesarattu with Sprouts", "Millet Protein Shake"];
+        const list = document.getElementById("dish-names");
+
+        dishNames.forEach(function (dishName)
+        {
+            const item = document.createElement("li");
+            item.textContent = dishName;
+            list.appendChild(item);
+        });
+
+        console.log("items on the page: " + list.children.length);
+    </script>
 </body>
 </html>

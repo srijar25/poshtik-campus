@@ -1,13 +1,20 @@
 <!DOCTYPE html>
-<html>
-<head><title>Drill 2</title></head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Drill 2</title>
+</head>
 <body>
-<script>
-const dish = { name: "Ragi Sangati Bowl", category: "Bowl", price: 55, isMillet: true };
-console.log(dish.name);
-console.log(dish.price);
-console.log(dish);
-console.log(dish.spice);
-</script>
+    <p id="dish-line"></p>
+    <script>
+        const dish = { name: "Ragi Sangati Bowl", price: 55, isMillet: true };
+
+        console.log(dish.name);
+        console.log(dish.price + 5);
+
+        const sentence = dish.name + " costs Rs. " + dish.price + ". Millet dish: " + dish.isMillet + ".";
+        document.getElementById("dish-line").textContent = sentence;
+        console.log(sentence);
+    </script>
 </body>
 </html>

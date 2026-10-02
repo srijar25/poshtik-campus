@@ -1,18 +1,20 @@
-/* style.css — poshtik-campus, site-wide. */
 body {
     font-family: 'Segoe UI', Arial, sans-serif;
     background-color: floralwhite;
     color: black;
 }
+
 #page-header {
     background-color: darkslategray;
     color: white;
     padding: 16px;
     text-align: center;
 }
+
 h1, h3 {
     color: seagreen;
 }
+
 .dish {
     width: 300px;
     background-color: mintcream;
@@ -20,51 +22,72 @@ h1, h3 {
     padding: 12px;
     margin: 12px 0;
 }
+
 .dish h3 {
     font-size: 18px;
     font-weight: 600;
 }
-nav a {
-    color: seagreen;
-    text-decoration: none;
-}
-footer p {
-    text-align: center;
-}
-/* ===== Lab 3 · Ex.1 — the nav becomes a bar ===== */
+
 nav {
     background-color: mintcream;
     padding: 10px 16px;
     border-bottom: 2px solid seagreen;
 }
+
 nav a {
+    color: seagreen;
+    text-decoration: none;
     margin-right: 18px;
 }
-/* ===== Lab 3 · Ex.2 — the order form joins the brand ===== */
+
 form {
     background-color: mintcream;
     border: 2px solid seagreen;
     padding: 16px;
     width: 480px;
 }
+
 legend {
     color: seagreen;
     font-weight: 600;
 }
+
 button {
     background-color: seagreen;
     color: white;
     border: none;
     padding: 8px 16px;
 }
-/* ===== phone layout — the media query MUST stay last ============ */
+
+#order-result {
+    white-space: pre-line;
+    border: 2px solid seagreen;
+    padding: 10px;
+    max-width: 480px;
+}
+
+#order-result:empty {
+    display: none;
+}
+
+#order-result.refused {
+    color: red;
+    border-color: red;
+}
+
+footer p {
+    text-align: center;
+}
+
 @media (max-width: 600px) {
     .dish {
         width: 100%;
     }
+
     form {
         width: 100%;
     }
+
     h1 {
         font-size: 22px;
     }
